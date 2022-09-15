@@ -3,7 +3,7 @@ import nightwatchPlugin from 'vite-plugin-nightwatch'
 
 export default {
   optimizeDeps: {
-    include: ['react', 'react-dom/client']
+    include: ['react', 'react-dom']
   },
   plugins: [
     react(),
